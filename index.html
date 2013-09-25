@@ -9,6 +9,8 @@
     <meta name="author" content="Luis Ciudad" />
     <title>SCRUM - Gestión ágil de proyectos | BetaBeers Córdoba 25-09-2013</title>
 
+    <link rel="shortcut icon" href="http://nosolosoftware.biz/public/img/favicon3.ico">
+
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
@@ -19,9 +21,25 @@
     </div>
 
     <div id="impress">
+      <div id="presentation" class="step slide" data-x="-1000">
+        <br />
+        <br />
+        <br />
+        <h1>Introducción a SCRUM</h1>
 
-      <div id="definition" class="step">
-        <h3>¿Qué es SCRUM?</h3>
+        <br/>
+        <br/>
+
+        <h2>Luis Ciudad</h2>
+
+        <img class="background" src="images/nosolo-logo.png" />
+        <p>Programador Backend en NoSoloSoftware</p>
+        <p>{ twitter: @sm477er, github: nanocity }</p>
+      </div>
+
+
+      <div id="definition" class="step slide">
+        <h2>¿Qué es SCRUM?</h2>
         <blockquote>
           <p>
             SCRUM es un marco para la ejecución de prácticas <b>ágiles</b> en el desarrollo de proyectos. [...]
@@ -29,36 +47,46 @@
           </p>
           <small><cite title="Scrum Manager">Scrum Manager</cite></small>
         </blockquote>
+
+        <img class="ilus" src="images/scrum.jpg" />
       </div>
 
-      <div id="classic-agile" class="step" data-x="1000">
-        <h3>Metodologías ágiles</h3>
+      <div id="classic-agile" class="step slide" data-x="1000">
+        <h2>Metodologías ágiles</h2>
         <blockquote>
           <p>
             Son métodos de ingeniería del software basados en el desarrollo iterativo e incremental, donde los requerimientos y soluciones evolucionan mediante la colaboración de grupos auto organizados y multidisciplinarios.
           </p>
           <small><cite title="Wikipedia">Wikipedia</cite></small>
         </blockquote>
-        <p>Diferencias entre métodos predictivos y agilidad</p>
-        <ul>
-          <li>Producto definido</li>
-          <li>Entorno estable y predecible</li>
-          <li>Plan financiero y temporal</li>
-          <li>Desarrollo en fases</li>
-        </ul>
 
-        <ul>
-          <li>Valor</li>
-          <li>Menor tiempo de salida al mercado</li>
-          <li>Adaptación al cambio</li>
-          <li>Iteraciones breves</li>
-        </ul>
+        <br />
+        <p>Diferencias entre métodos predictivos y agilidad</p>
+        <div class="colum left">
+          <ul>
+            <li>Producto definido</li>
+            <li>Entorno estable y predecible</li>
+            <li>Plan financiero y temporal</li>
+            <li>Desarrollo en fases</li>
+          </ul>
+        </div>
+
+        <div class="colum right">
+          <ul>
+            <li>Valor</li>
+            <li>Menor tiempo de salida al mercado</li>
+            <li>Adaptación al cambio</li>
+            <li>Iteraciones breves</li>
+          </ul>
+        </div>
       </div>
 
-      <div id="cicles" class="step" data-x="2000">
-        <h3>Ciclos de desarrollo ágil</h3>
-
-        <ul>
+      <div id="cicles" class="step slide" data-x="2000">
+        <h2>Ciclos de desarrollo ágil</h2>
+        <br />
+        <br />
+        <br />
+        <ul class="lonely">
           <li>Concepto</li>
           <li>Especulación</li>
           <li>Exploración</li>
@@ -67,10 +95,12 @@
         </ul>
       </div>
 
-      <div id="environments" class="step" data-x="3000">
-        <h3>Entornos ágiles</h3>
-
-        <ul>
+      <div id="environments" class="step slide" data-x="3000">
+        <h2>Entornos ágiles</h2>
+        <br />
+        <br />
+        <br />
+        <ul class="lonely">
           <li>Valor/predicción</li>
           <li>Estabilidad de requisitos</li>
           <li>Tamaño del sistema</li>
@@ -78,25 +108,248 @@
         </ul>
       </div>
 
-      <div id="implications" class="step" data-x="4000">
-        <h3>Implicaciones de adoptar metodologías ágiles</h3>
+      <div id="implications" class="step slide" data-x="4000">
+        <h2>Implicaciones de adoptar metodologías ágiles</h2>
 
-        <p>Organizacion</p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="colum left">
+          <h3>Organización</h3>
+          <ul>
+            <li>Modelos de desarrollo basados en personas</li>
+            <li>Ambientes poco jerarquizados</li>
+            <li>Personal experto</li>
+          </ul>
+        </div>
+
+        <div class="colum right">
+          <h3>Personas</h3>
+          <ul>
+            <li>Responsabilidad y autodisciplina</li>
+            <li>Capacidad de comunicación y trabajo en equipo</li>
+            <li>Transparencia</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="scrum" class="step slide" data-x="5000">
+        <h2>SCRUM</h2>
+        <h3>Artefactos</h3>
+
         <ul>
-          <li>Modelos de desarrollo basados en personas</li>
-          <li>Ambientes poco jerarquizados</li>
-          <li>Personal experto</li>
+          <li> Roles
+            <ul>
+              <li>Propietario de producto</li>
+              <li>Equipo</li>
+              <li>Scrum Master</li>
+            </ul>
+          </li>
+
+          <li> Elementos
+            <ul>
+              <li>Incremento</li>
+              <li>Pila de Producto</li>
+              <li>Pila de Sprint</li>
+            </ul>
+          </li>
+
+          <li> Reuniones
+            <ul>
+              <li>Planificación</li>
+              <li>Seguimiento</li>
+              <li>Revisión</li>
+              <li>Retrospectiva</li>
+            </ul>
+          </li>
         </ul>
 
-        <p>Personas</p>
-        <ul>
-          <li>Responsabilidad y autodisciplina</li>
-          <li>Capacidad de comunicación y trabajo en equipo</li>
-          <li>Transparencia</li>
+      </div>
+
+      <div id="roles" class="step slide" data-x="6000" data-y="0">
+        <h2>Roles</h2>
+        <h3>Gallinas vs Cerdos</h3>
+        <p><b>Gallinas:</b> Direccion Comercial, Marketing, Usuarios...</p>
+        <p><b>Cerdos:</b> Product Owner y Equipo</p>
+        <br />
+        <br />
+        <img class="ilus" src="images/pig_and_chicken.jpg" />
+      </div>
+
+      <div id="owner" class="step slide" data-x="7000" data-y="0">
+        <h2>Roles: Propietario del producto</h2>
+        <ul class="lonely">
+          <li>Financia el proyecto</li>
+          <li>Conoce perfectamente el entorno de negocio</li>
+          <li>Tiene capacacidad para tomar decisiones sobre plazos</li>
+          <li>Es el encargado de mantener la pila de producto</li>
+          <li>Participa en la planificación del sprint</li>
         </ul>
       </div>
 
+      <div id="team" class="step slide" data-x="8000" data-y="0">
+        <h2>Roles: Equipo</h2>
+        <ul class="lonely">
+          <li>'Equipo' no es lo mismo que 'Grupo de trabajo'</li>
+          <li>Entre 4 y 8 personas</li>
+          <li>Multidisciplinar</li>
+          <li>Autogestionados</li>
+        </ul>
+      </div>
+
+      <div id="master" class="step slide" data-x="9000" data-y="0">
+        <h2>Roles: SCRUM Master</h2>
+        <ul class="lonely">
+          <li>Es un árbitro</li>
+          <li>Se asegura de que todos los participantes conocen las reglas de SCRUM</li>
+          <li>Puede formar parte o no del equipo</li>
+          <li>Es necesario en equipos con poca madurez/experiencia</li>
+          <li>No se considera ni gallina ni cerdo</li>
+        </ul>
+      </div>
+
+      <div id="increment" class="step slide" data-x="10000" data-y="0">
+        <h2>Elementos: Incremento</h2>
+        <ul class="lonely">
+          <li>Resultado de un <i>Sprint</i></li>
+          <li>Correlación con los ciclos de desarrollo ágil</li>
+          <li>Parte completa, documentado y testeada</li>
+          <li>Cada 15 o 30 días</li>
+        </ul>
+      </div>
+
+      <div id="product-backlog" class="step slide" data-x="11000" data-y="0">
+        <h2>Elementos: Pila de Producto</h2>
+        <ul class="lonely">
+          <li>Es un documento vivo</li>
+          <li>Visión global del proyecto</li>
+          <li>Contiene toda la funcionalidad que se espera del sistema</li>
+          <li>Es reponsabilidad del propietario del producto</li>
+        </ul>
+      </div>
+
+      <div id="sprint-backlog" class="step slide" data-x="12000" data-y="0">
+        <h2>Elementos: Pila de Sprint</h2>
+        <ul class="lonely">
+          <li>Subconjunto de la pila de producto + Tareas</li>
+          <li>Se crea entre el equipo y el Propietario del producto</li>
+          <li>Contiene todas las características a desarrollo en un <i>sprint</i></li>
+        </ul>
+      </div>
+
+      <div id="stories" class="step slide" data-x="13000" data-y="0">
+        <h2>Historias de Usuario</h2>
+        <img class="ilus" src="images/story_front.jpg" />
+        <ul>
+          <li>Título</li>
+          <li>Descripción</li>
+          <li>Prioridad</li>
+          <li>Estimación</li>
+          <li>Notas</li>
+        </ul>
+      </div>
+
+      <div id="stories-back" class="step slide" data-x="13000" data-y="0" data-rotate-y="180">
+        <h2>Historias de Usuario</h2>
+        <img class="ilus" src="images/story_back.jpg" />
+        <ul>
+          <li>Identificador</li>
+          <li>Criterios de aceptación</li>
+        </ul>
+      </div>
+
+      <div id="poker" class="step slide" data-x="14000" data-y="0">
+        <h2>Planning poker</h2>
+        <img class="ilus" src="images/poker.jpg" />
+        <ul>
+          <li>Herramienta de estimación</li>
+          <li>Muy útil para conocer el alcanze de las historias</li>
+          <li>Juicio de expertos</li>
+        </ul>
+      </div>
+
+      <div id="planning" class="step slide" data-x="15000" data-y="0">
+        <h2>Reunión: Planificación</h2>
+        <ul class="lonely">
+          <li>La preparación de esta reunión le corresponde al propetario del producto</li>
+          <li>Se conforma la pila de sprint</li>
+          <li>Se deciden los plazos del sprint y el objetivo</li>
+          <li>Se corresponde con la fase de especulación</li>
+        </ul>
+      </div>
+
+      <div id="daily" class="step slide" data-x="16000" data-y="0">
+        <h2>Reunión: Seguimiento</h2>
+        <ul class="lonely">
+          <li>Duración de entre 10 y 15 minutos</li>
+          <li>De pie y cerca los elmentos de gestión visual</li>
+          <li>3 cuestiones básicas (Ayer, hoy, impedimentos)</li>
+          <li>Cobra importancia el SCRUM Master</li>
+        </ul>
+      </div>
+
+      <div id="revision" class="step slide" data-x="17000" data-y="0">
+        <h2>Reunión: Revisión</h2>
+        <ul class="lonely">
+          <li>Reunión informal</li>
+          <li>Presentación del incremento al cliente</li>
+          <li>No se toman decisiones o se critica el incremento</li>
+          <li>Se obtiene feeback a traves de la experimentación</li>
+          <li>Se actualiza la visión del producto con nuevos requisitos</li>
+        </ul>
+      </div>
+
+      <div id="retrospecter" class="step slide" data-x="18000" data-y="0">
+        <h2>Reunión: Retrospectiva</h2>
+        <ul class="lonely">
+          <li>Mejora continua</li>
+          <li>Depuración de los procesos de SCRUM</li>
+        </ul>
+      </div>
+
+      <div id="kanban" class="step slide" data-x="19000" data-y="0">
+        <h2>Kanban</h2>
+        <img class="ilus" src="images/kanban.jpg" />
+        <ul>
+          <li>Permite conocer en un vistazo el estado general de <i>sprint</i></li>
+          <li>Se actualiza en la reunion de seguimiento del sprint</li>
+          <li>
+            Ayuda a reconocer problemas rapidamente
+            <ul>
+              <li>Muchas tareas empezadas</li>
+              <li>Dependencia de tareas</li>
+              <li>Tareas que cambian de estado hacia atrás</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div id="burndown" class="step slide" data-x="20000" data-y="0">
+        <h2>Burndown</h2>
+        <img class="ilus" src="images/burndown.jpg" />
+        <ul>
+          <li>Puntos de esfuerzo pendientes</li>
+          <li>Información de la desviación del sprint desde el inicio</li>
+          <li>Permite identificar estimaciones poco precisas</li>
+        </ul>
+      </div>
+
+      <div id="questions" class="step slide" data-x="21000" data-y="0">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1>¿Preguntas?</h1>
+        <br />
+        <br />
+        <br />
+        <h3>¡Gracias!</h3>
+      </div>
+
     </div>
+
 
     <script src="js/impress.js"></script>
     <script>impress().init();</script>
